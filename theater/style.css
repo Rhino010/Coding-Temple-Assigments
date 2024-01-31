@@ -1,0 +1,35 @@
+* {
+    border: 1px solid red;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-background img {
+    display: flex;
+    object-fit: cover;
+}
+
+
+.navbar {
+    display: fixed;
+    position: top;
+    width: 100%;
+    background: black;
+    z-index: 666;
+}
+
+.theater {
+    z-index: 666;
+}
+
+.big_title {
+    z-index: 666;
+}
+
+.show-access {
+    display: flex;
+    justify-content: space-evenly;
+}
