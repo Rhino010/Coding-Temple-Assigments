@@ -1,0 +1,115 @@
+body {
+    background-image: url('theater-image-background.png');
+}
+
+.header {
+    display: flex;
+    
+}
+
+.bg-img {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+
+.top-background {
+    display: flex;
+    position:absolute;
+    z-index: 1;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+.navbar {
+    display: fixed;
+    color: white;
+    position: absolute;
+    width: 100%;
+    background: black;
+    z-index: 666;
+}
+
+.theater {
+    z-index: 666;
+}
+
+h1.big-title {
+    display: flex;
+    color: white;
+    z-index: 1;
+}
+
+.shows {
+    margin-top: 50%;
+    background-color: white;
+}
+
+.show-access {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shows-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.show-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.read-more {
+    background-color: rgb(247, 230, 49);
+}
+
+.show-pic {
+    width: 250px;
+    object-fit: cover;
+}
+
+.pic {
+    width: 200px;
+}
+
+.map {
+    height: 250px;
+    width: 300px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border-spacing: 50px;
+}
+
+.table-1 {
+    display: flex; 
+    border-spacing: 50px;
+    border-style: none;
+    border-collapse: separate;
+}
+
